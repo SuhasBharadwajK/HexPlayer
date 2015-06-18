@@ -27,7 +27,8 @@ namespace HexPlayer
             InitializeComponent();
             var appObject = App.Current as App;            
             this.Title = "Player " + appObject.name;
-            brush = (Brush)new BrushConverter().ConvertFromString(appObject.color);
+            string playerPipeName = "player" + appObject.name;
+            brush = (Brush)new BrushConverter().ConvertFromString(appObject.color); 
             
         }
 
