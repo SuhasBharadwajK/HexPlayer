@@ -25,16 +25,22 @@ namespace HexPlayer
         public MainWindow()
         {
             InitializeComponent();
-            var appObject = App.Current as App;            
+            var appObject = App.Current as App;
             this.Title = "Player " + appObject.name;
             string playerPipeName = "player" + appObject.name;
-            brush = (Brush)new BrushConverter().ConvertFromString(appObject.color); 
+            brush = (Brush)new BrushConverter().ConvertFromString(appObject.color);
             
         }
 
         private void Ellipse_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            Ellipse.Fill = brush;
+            ellip.Fill = brush;
+        }
+
+        private void Clicked(object sender, MouseButtonEventArgs e)
+        {            
+            ((System.Windows.Shapes.Ellipse)this.FindName((sender as Ellipse).Name)).Fill = brush;            
+            (sender as Ellipse).MouseDown -= Clicked;
         }
     }
 }

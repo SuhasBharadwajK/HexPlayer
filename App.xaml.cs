@@ -14,9 +14,12 @@ namespace HexPlayer
     /// </summary>
     public partial class App : Application
     {
-        public string color, name;        
+        public string color, name;
+        
         public void onStartup(object sender, StartupEventArgs args)
         {
+            color = "#0066FF";
+            name = "blue";
             if (args.Args.Length != 0)
             {
                 name = args.Args[1];

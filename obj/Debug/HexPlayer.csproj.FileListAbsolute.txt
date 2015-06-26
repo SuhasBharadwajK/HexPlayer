@@ -11,3 +11,16 @@ C:\Users\cselab1\Documents\GitHub\HexPlayer\obj\Debug\HexPlayer.Properties.Resou
 C:\Users\cselab1\Documents\GitHub\HexPlayer\obj\Debug\HexPlayer.csproj.GenerateResource.Cache
 C:\Users\cselab1\Documents\GitHub\HexPlayer\obj\Debug\HexPlayer.exe
 C:\Users\cselab1\Documents\GitHub\HexPlayer\obj\Debug\HexPlayer.pdb
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\bin\Debug\HexPlayer.exe.config
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.exe
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.pdb
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\bin\Debug\HexPlayer.exe
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\bin\Debug\HexPlayer.pdb
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.csprojResolveAssemblyReference.cache
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\MainWindow.baml
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\MainWindow.g.cs
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\App.g.cs
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer_MarkupCompile.cache
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.g.resources
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.Properties.Resources.resources
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.csproj.GenerateResource.Cache
