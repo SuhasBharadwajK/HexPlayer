@@ -24,3 +24,4 @@ C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\He
 C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.g.resources
 C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.Properties.Resources.resources
 C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer.csproj.GenerateResource.Cache
+C:\Users\Suhas\Documents\Visual Studio 2013\Projects\Hexy\HexPlayer\obj\Debug\HexPlayer_MarkupCompile.lref

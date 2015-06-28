@@ -15,9 +15,9 @@ namespace HexPlayer
             try
             {
                 NamedPipeClientStream pipe = new NamedPipeClientStream(".", pipeName, PipeDirection.Out, PipeOptions.Asynchronous);
-                pipe.Connect();
+                pipe.Connect();                
 
-                byte[] poistionByteBuffer = Encoding.UTF8.GetBytes(position);
+                byte[] poistionByteBuffer = Encoding.UTF8.GetBytes(position.ToCharArray(), 0, 12);
                 pipe.BeginWrite(poistionByteBuffer, 0, poistionByteBuffer.Length, DoneWriting, pipe);
             }
             catch (Exception e)

@@ -22,12 +22,17 @@ namespace HexPlayer
     public partial class MainWindow : Window
     {
         public Brush brush;
+        private PipeClient client;
+        private string playerPipeName;
+        int playerName;
+
         public MainWindow()
         {
             InitializeComponent();
             var appObject = App.Current as App;
+            playerName = Int16.Parse(appObject.name);
             this.Title = "Player " + appObject.name;
-            string playerPipeName = "player" + appObject.name;
+            playerPipeName = "player" + appObject.name;
             brush = (Brush)new BrushConverter().ConvertFromString(appObject.color);
             
         }
@@ -38,9 +43,13 @@ namespace HexPlayer
         }
 
         private void Clicked(object sender, MouseButtonEventArgs e)
-        {            
-            ((System.Windows.Shapes.Ellipse)this.FindName((sender as Ellipse).Name)).Fill = brush;            
+        {
+            ((System.Windows.Shapes.Ellipse)this.FindName((sender as Ellipse).Name)).Fill = brush;
             (sender as Ellipse).MouseDown -= Clicked;
+
+            client = new PipeClient();
+            string message = (sender as Ellipse).Name + "_" + playerName.ToString();
+            client.Send(playerPipeName, message);
         }
     }
 }

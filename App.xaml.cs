@@ -19,18 +19,11 @@ namespace HexPlayer
         public void onStartup(object sender, StartupEventArgs args)
         {
             color = "#0066FF";
-            name = "blue";
+            name = "1";
             if (args.Args.Length != 0)
             {
                 name = args.Args[1];
-                if (args.Args[0] == "blue")
-                {
-                    color = "#0066FF";
-                }
-                else
-                {
-                    color = "#FF2A2A";
-                }
+                color = args.Args[0];
             }            
         }
     }
